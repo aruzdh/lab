@@ -13,6 +13,10 @@
  *         - result[1]: the missing value.
  *         Returns NULL if memory allocation fails.
  * @note The caller is responsible for freeing the returned array.
+ *
+ * The algorithm has a time complexity of O(n^2), where n is the size of the
+ * matrix, and a space complexity of O(n^2), as it uses an array to track seen
+ * elements in the matrix,
  */
 int *missing_and_repeated_value(int **matrix, int size);
 
