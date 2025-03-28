@@ -2,8 +2,7 @@
 
 To run the unit tests:
 
-1. Navigate to the project directory:
-   2.Execute the tests:
+1. Execute the tests from the current directory:
 
 ```bash
 python3 -m unittest test_functions.py -v
