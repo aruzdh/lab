@@ -1,3 +1,4 @@
+# Time complexity is O(h * n) in the worst case where h and n are the lengths of haystack and needle, with O(1) constant space.
 def first_occurrence(haystack: str, needle: str) -> int:
     """
     Finds the first occurrence of a substring (needle) in a string (haystack).

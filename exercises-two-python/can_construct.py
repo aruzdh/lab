@@ -1,3 +1,4 @@
+# Time complexity is O(m + n) where m and n are the lengths of magazine and ransom_note, with O(m) space for the character dictionary.
 def can_construct(ransom_note: str, magazine: str) -> bool:
     """
     Determines if a ransom note can be constructed from a given magazine string.

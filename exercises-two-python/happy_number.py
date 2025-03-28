@@ -16,6 +16,7 @@ def square_digits(num):
     return sum_sq
 
 
+# Time complexity is O(log n * d) where n is the input number and d is the number of digits in each step, with O(log n) space for the set of seen numbers.
 def is_happy(n: int) -> bool:
     """
     Determines if a number is a happy number.

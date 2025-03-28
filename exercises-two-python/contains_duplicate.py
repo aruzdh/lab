@@ -1,3 +1,4 @@
+# Time complexity is O(n * k) where n is the list length and k is the average number of occurrences of each number, with O(n) space for the dictionary of indices.
 def contains_duplicate(nums, k: int) -> bool:
     """
     Checks if there are any duplicate values in the list within k distance of each other.
